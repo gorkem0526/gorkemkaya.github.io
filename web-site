@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitesi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Başlık kısmı */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Okul numarası ve bölüm kısmı */
+        .info {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Kenar başlık - homework */
+        .sidebar {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            background-color: #f1f1f1;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Alt kısımdaki ödev linkleri */
+        .homework-links {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .homework-links h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .homework-links a {
+            display: block;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .homework-links a:hover {
+            color: #007bff;
+        }
+
+        /* Link kutusu düzeni */
+        .homework-link-box {
+            display: inline-block;
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(25% - 40px); /* 4 kutu olacak şekilde eşit dağıtılacak */
+            text-align: center;
+        }
+
+        .homework-link-box a {
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            display: block;
+        }
+
+        .homework-link-box:hover {
+            background-color: #e0e0e0;
+        }
+
+        /* Mobil uyum için düzenleme */
+        @media screen and (max-width: 768px) {
+            .homework-link-box {
+                width: calc(50% - 40px); /* 2 kutu olacak şekilde */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .homework-link-box {
+                width: 100%; /* 1 kutu olacak şekilde */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Yasin Gorkem Kaya</h1>
+        <div class="info">
+            <p>Okul Numarası: 2230357057</p>
+            <p>Bölüm:Electrical and Electronics Engineering</p>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <p>Homework</p>
+    </div>
+
+    <div class="homework-links">
+        <h2>Ödevler</h2>
+
+        <div class="homework-link-box">
+            <a href="#">Ödev 1 - Linki Buraya Ekle</a>
+        </div>
+        <div class="homework-link-box">
+            <a href="#">Ödev 2 - Linki Buraya Ekle</a>
+        </div>
+        <div class="homework-link-box">
+            <a href="#">Ödev 3 - Linki Buraya Ekle</a>
+        </div>
+        <div class="homework-link-box">
+            <a href="#">Ödev 4 - Linki Buraya Ekle</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
