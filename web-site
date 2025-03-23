@@ -12,7 +12,7 @@
             padding: 0;
         }
 
-        /* Başlık kısmı */
+        
         header {
             text-align: center;
             padding: 20px;
@@ -24,14 +24,14 @@
             font-size: 36px;
         }
 
-        /* Okul numarası ve bölüm kısmı */
+        
         .info {
             text-align: center;
             font-size: 18px;
             margin-top: 10px;
         }
 
-        /* Kenar başlık - homework */
+        
         .sidebar {
             position: fixed;
             top: 50%;
@@ -43,7 +43,7 @@
             font-weight: bold;
         }
 
-        /* Alt kısımdaki ödev linkleri */
+        
         .homework-links {
             margin-top: 50px;
             text-align: center;
@@ -66,7 +66,7 @@
             color: #007bff;
         }
 
-        /* Link kutusu düzeni */
+        
         .homework-link-box {
             display: inline-block;
             background-color: #f9f9f9;
@@ -89,7 +89,7 @@
             background-color: #e0e0e0;
         }
 
-        /* Mobil uyum için düzenleme */
+        
         @media screen and (max-width: 768px) {
             .homework-link-box {
                 width: calc(50% - 40px); /* 2 kutu olacak şekilde */
@@ -121,16 +121,16 @@
         <h2>Ödevler</h2>
 
         <div class="homework-link-box">
-            <a href="#">Ödev 1 - Linki Buraya Ekle</a>
+            <a href="#">Q2 - https://github.com/gorkem0526/question2</a>
         </div>
         <div class="homework-link-box">
-            <a href="#">Ödev 2 - Linki Buraya Ekle</a>
+            <a href="#">Q3 -https://github.com/gorkem0526/question3 </a>
         </div>
         <div class="homework-link-box">
-            <a href="#">Ödev 3 - Linki Buraya Ekle</a>
+            <a href="#">Q4a - https://github.com/gorkem0526/question4-a</a>
         </div>
         <div class="homework-link-box">
-            <a href="#">Ödev 4 - Linki Buraya Ekle</a>
+            <a href="#">Q4b -https://github.com/gorkem0526/question4-b </a>
         </div>
     </div>
 
